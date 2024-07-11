@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    color: blue;
+}
+
+.heading{
+    color: darkblue;
+}
+
+#menu{
+    background-color: rgb(6, 5, 44);
+    width: auto; 
+    /* height: 60px; */
+    color: white;
+    text-align: right;
+    border-radius: 5px;
+    padding: 20px 50px;
+    text-decoration: none;
+}
+
+#menu a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    background-color: darkblue;
+    padding: 10px 30px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+#menu a:hover{
+    background-color: rgb(203, 235, 58);
+}
+
+#hero{
+    background-color: rgb(37, 32, 102);
+    height: 400px;
+    width: auto;
+    margin-top: 5px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+#hero h1{
+    color: white;
+    font-size: 60px;
+    
+}
+
+#hero p{
+    color: white;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+#hero a{
+    background-color: darkblue;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+#hero a:hover{
+    background-color: rgb(58, 58, 235);
+}
+
+#courses{
+    text-align: center;
+}
+
+#courses h1{
+    color: darkblue;
+    font-size: 3rem;
+}
+
+#courses img{
+    height: 500px;
+    margin: 15px;
+    border-radius: 10px;
+}
